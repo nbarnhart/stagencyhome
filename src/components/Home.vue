@@ -63,6 +63,10 @@
       </v-flex>
     </v-layout>
 
+    <layout>
+      <contact-form></contact-form>
+    </layout>
+
   </v-container>
 </template>
 

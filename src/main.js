@@ -6,6 +6,7 @@ import router from './router'
 import Vuetify from 'vuetify'
 import('../node_modules/vuetify/dist/vuetify.min.css')
 import VeeValidate from 'vee-validate'
+import ContactForm from '@/components/ContactForm'
 
 
 Vue.use(VeeValidate)
