@@ -1,4 +1,5 @@
 <template>
+  <v-app>
   <v-container fluid grid-list-md >
 
     <!-- Headline Page -->
@@ -17,6 +18,9 @@
               <h2>Artist Info, Songs & Videos Embedded on One Page</h2>
               <br>
               <p>Integrated with YouTube, Spotify & social media so you can do all your artist research on one page!</p>
+          <div>
+            <v-btn color="primary">Sign Up Free</v-btn>
+          </div>
         </v-flex>
         <v-flex class="feature_image_gray">
               <img src="../assets/festival_feature1.png" alt="Festival Feature 1">
@@ -33,6 +37,9 @@
         <h2>Rate Artists as You Go</h2>
         <br>
         <p>Simply click a thumbs up or thumbs down to rate artists as you review. Save your shortlist and reach out to the best artists with offers.</p>
+        <div>
+          <v-btn color="primary">Sign Up Free</v-btn>
+        </div>
       </v-flex>
     </v-layout>
 
@@ -43,6 +50,9 @@
         <h2>Artists Can Apply Directly From Your Website</h2>
         <br>
         <p>Copy and paste our embedded form onto your submission page and artists who apply directly will appear in your feed.</p>
+        <div>
+          <v-btn color="primary">Sign Up Free</v-btn>
+        </div>
       </v-flex>
       <v-flex xs6 class="feature_image_gray">
         <img src="../assets/festival_feature3.png" alt="Festival Feature 1">
@@ -60,6 +70,9 @@
         <h2>Collaborate With Your Team</h2>
         <br>
         <p>Multiple user accounts allows your team to view and rate artists simultaneously.</p>
+        <div>
+          <v-btn color="primary">Sign Up Free</v-btn>
+        </div>
       </v-flex>
     </v-layout>
 
@@ -68,6 +81,8 @@
     </layout>
 
   </v-container>
+
+  </v-app>
 </template>
 
 
@@ -127,7 +142,7 @@ a {
 }
 
   .feature_text_gray {
-    margin-top: 15%;
+    margin-top: 10%;
     margin-bottom: 10%;
     margin-left: 10%;
     margin-right: 0%;
@@ -141,7 +156,7 @@ a {
     padding: 5%;
   }
 .feature_text_white {
-  margin-top: 15%;
+  margin-top: 10%;
   margin-bottom: 10%;
   margin-left: 0%;
   margin-right: 10%;

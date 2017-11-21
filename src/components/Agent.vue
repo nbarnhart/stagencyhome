@@ -17,6 +17,9 @@
               <h2>Submit Artists with One Click</h2>
               <br>
               <p>Select a festival, select the artists and submit with one click. We create a beautiful template email submission automatically. No more crafting submission emails for every festival.</p>
+          <div>
+            <v-btn color="primary">Sign Up Free</v-btn>
+          </div>
         </v-flex>
         <v-flex class="feature_image_gray">
               <img src="../assets/agent_feature1.png" alt="Festival Feature 1">
@@ -33,6 +36,9 @@
         <h2>Your Up & Coming Artists WILL Get Noticed!</h2>
         <br>
         <p>Deliver all of your client submissions to festivals as one interactive page to make your clients stand out.</p>
+        <div>
+          <v-btn color="primary">Sign Up Free</v-btn>
+        </div>
       </v-flex>
     </v-layout>
 
@@ -43,6 +49,9 @@
         <h2>Keep Your Clients Updated</h2>
         <br>
         <p>Sign your clients up for automated alerts on your festival submission activity OR simply send them an activity report with one click.</p>
+        <div>
+          <v-btn color="primary">Sign Up Free</v-btn>
+        </div>
       </v-flex>
       <v-flex xs6 class="feature_image_gray">
         <img src="../assets/agent_feature3.png" alt="Festival Feature 1">
@@ -60,9 +69,14 @@
         <h2>Never Miss a Festival Deadline</h2>
         <br>
         <p>Discover new festivals and submit on time with our submission deadline alerts. Coming Soon!</p>
+        <div>
+          <v-btn color="primary">Sign Up Free</v-btn>
+        </div>
       </v-flex>
     </v-layout>
-
+    <v-layout>
+      <contact-form></contact-form>
+    </v-layout>
   </v-container>
 </template>
 

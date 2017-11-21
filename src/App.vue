@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <v-app>
 
     <!-- Top Navigation -->
 
@@ -28,7 +29,7 @@
       <v-spacer></v-spacer>
       <div>© {{ new Date().getFullYear() }} Stagency, LLC</div>
     </v-footer>
-
+    </v-app>
   </div>
 </template>
 

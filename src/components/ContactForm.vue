@@ -1,6 +1,8 @@
 <template>
 <v-container fluid>
-  <h2>Send Us A Note</h2>
+  <v-layout class="sectional">
+    <h2 style="color: white;">Send Us A Note</h2>
+  </v-layout>
   <v-layout>
       <form>
         <v-text-field
@@ -48,3 +50,14 @@
     }
   }
 </script>
+
+<style>
+
+  .sectional {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding: 2%;
+    background-color: #1976D2;
+  }
+
+</style>
