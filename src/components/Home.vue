@@ -1,87 +1,84 @@
 <template>
   <v-app>
-  <v-container fluid grid-list-md >
+    <v-container fluid grid-list-md >
 
-    <!-- Headline Page -->
+      <!-- Headline Page -->
 
-    <v-layout>
-      <v-flex xs12 class="home_top">
-        <h1>BOOK THE BEST ACTS FASTER.</h1>
-        <h2>Stagency aggregates your festival artist submissions onto one interactive page. </h2>
-      </v-flex>
-    </v-layout>
+      <v-layout>
+        <v-flex xs12 class="home_top">
+          <h1>BOOK THE BEST ACTS FASTER.</h1>
+          <h2>Stagency aggregates your festival artist submissions onto one interactive page. </h2>
+        </v-flex>
+      </v-layout>
 
-    <!-- Feature 1 -->
+      <!-- Feature 1 -->
 
-      <v-layout row row justify-center class="feature_gray">
-        <v-flex class="feature_text_gray">
-              <h2>Artist Info, Songs & Videos Embedded on One Page</h2>
-              <br>
-              <p>Integrated with YouTube, Spotify & social media so you can do all your artist research on one page!</p>
+        <v-layout row row justify-center class="feature_gray">
+          <v-flex class="feature_text_gray">
+                <h2>Artist Info, Songs & Videos Embedded on One Page</h2>
+                <br>
+                <p>Integrated with YouTube, Spotify & social media so you can do all your artist research on one page!</p>
+            <div>
+              <v-btn color="primary">Sign Up Free</v-btn>
+            </div>
+          </v-flex>
+          <v-flex class="feature_image_gray">
+                <img src="../assets/festival_feature1.png" alt="Festival Feature 1">
+          </v-flex>
+        </v-layout>
+
+      <!-- Feature 2 -->
+
+      <v-layout row row justify-center class="feature_white">
+        <v-flex xs6 class="feature_image_white">
+          <img src="../assets/festival_feature_thumbs.png" alt="Festival Feature 1">
+        </v-flex>
+        <v-flex xs6 class="feature_text_white">
+          <h2>Rate Artists as You Go</h2>
+          <br>
+          <p>Simply click a thumbs up or thumbs down to rate artists as you review. Save your shortlist and reach out to the best artists with offers.</p>
           <div>
             <v-btn color="primary">Sign Up Free</v-btn>
           </div>
         </v-flex>
-        <v-flex class="feature_image_gray">
-              <img src="../assets/festival_feature1.png" alt="Festival Feature 1">
+      </v-layout>
+
+      <!-- Feature 3 -->
+
+      <v-layout row row justify-center class="feature_gray">
+        <v-flex xs6 class="feature_text_gray">
+          <h2>Artists Can Apply Directly From Your Website</h2>
+          <br>
+          <p>Copy and paste our embedded form onto your submission page and artists who apply directly will appear in your feed.</p>
+          <div>
+            <v-btn color="primary">Sign Up Free</v-btn>
+          </div>
+        </v-flex>
+        <v-flex xs6 class="feature_image_gray">
+          <img src="../assets/festival_feature3.png" alt="Festival Feature 1">
         </v-flex>
       </v-layout>
 
-    <!-- Feature 2 -->
 
-    <v-layout row row justify-center class="feature_white">
-      <v-flex xs6 class="feature_image_white">
-        <img src="../assets/festival_feature_thumbs.png" alt="Festival Feature 1">
-      </v-flex>
-      <v-flex xs6 class="feature_text_white">
-        <h2>Rate Artists as You Go</h2>
-        <br>
-        <p>Simply click a thumbs up or thumbs down to rate artists as you review. Save your shortlist and reach out to the best artists with offers.</p>
-        <div>
-          <v-btn color="primary">Sign Up Free</v-btn>
-        </div>
-      </v-flex>
-    </v-layout>
+      <!-- Feature 4 -->
 
-    <!-- Feature 3 -->
+      <v-layout row row justify-center class="feature_white">
+        <v-flex xs6 class="feature_image_white">
+          <img src="../assets/festival_feature_collaborate.png" alt="Festival Feature 1">
+        </v-flex>
+        <v-flex xs6 class="feature_text_white">
+          <h2>Collaborate With Your Team</h2>
+          <br>
+          <p>Multiple user accounts allows your team to view and rate artists simultaneously.</p>
+          <div>
+            <v-btn color="primary">Sign Up Free</v-btn>
+          </div>
+        </v-flex>
+      </v-layout>
 
-    <v-layout row row justify-center class="feature_gray">
-      <v-flex xs6 class="feature_text_gray">
-        <h2>Artists Can Apply Directly From Your Website</h2>
-        <br>
-        <p>Copy and paste our embedded form onto your submission page and artists who apply directly will appear in your feed.</p>
-        <div>
-          <v-btn color="primary">Sign Up Free</v-btn>
-        </div>
-      </v-flex>
-      <v-flex xs6 class="feature_image_gray">
-        <img src="../assets/festival_feature3.png" alt="Festival Feature 1">
-      </v-flex>
-    </v-layout>
+        <contact-form></contact-form>
 
-
-    <!-- Feature 4 -->
-
-    <v-layout row row justify-center class="feature_white">
-      <v-flex xs6 class="feature_image_white">
-        <img src="../assets/festival_feature_collaborate.png" alt="Festival Feature 1">
-      </v-flex>
-      <v-flex xs6 class="feature_text_white">
-        <h2>Collaborate With Your Team</h2>
-        <br>
-        <p>Multiple user accounts allows your team to view and rate artists simultaneously.</p>
-        <div>
-          <v-btn color="primary">Sign Up Free</v-btn>
-        </div>
-      </v-flex>
-    </v-layout>
-
-    <layout>
-      <contact-form></contact-form>
-    </layout>
-
-  </v-container>
-
+    </v-container>
   </v-app>
 </template>
 
