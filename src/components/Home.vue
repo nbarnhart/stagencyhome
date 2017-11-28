@@ -125,7 +125,7 @@ a {
 }
   .home_top {
     margin-top: 25%;
-    margin-bottom: 30%;
+    margin-bottom: 25%;
     padding: 5%;
   }
   .feature_gray {
