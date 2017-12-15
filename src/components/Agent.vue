@@ -4,7 +4,7 @@
 
       <!-- Headline Page -->
 
-      <v-layout>
+      <v-layout style="background-color: white;">
         <v-flex xs12 class="home_top">
           <h1>BOOK MORE FESTIVALS.</h1>
           <h2>Stagency helps agents organize and optimize music festival submissions.</h2>

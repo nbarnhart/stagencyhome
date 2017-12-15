@@ -4,7 +4,7 @@
 
       <!-- Headline Page -->
 
-      <v-layout>
+      <v-layout style="background-color: white;">
         <v-flex xs12 class="home_top">
           <h1>BOOK THE BEST ACTS FASTER.</h1>
           <h2>Stagency aggregates your festival artist submissions onto one interactive page. </h2>
